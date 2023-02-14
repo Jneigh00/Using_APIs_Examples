@@ -1,0 +1,30 @@
+div.pokemonCard{
+    height: 600px;
+    width: 400px;
+    border: solid black 3px;
+    margin-right: 15px;
+    margin-top: 15px;
+    display:inline-flex;
+    flex-direction: column;
+    position: inherit;
+}
+
+#randomPokemon{
+    margin-top: 25px;
+}
+
+nav{
+    background-color: Red;
+}
+
+img{
+    background-color: lightgrey;
+    height: 65%;
+    width: 100%;
+}
+
+span#pokeName{
+    position: inherit;
+    font-size: 1.5vw;
+    margin-top: 65px;
+}

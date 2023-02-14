@@ -1,0 +1,33 @@
+body{
+    background-color: 	#28282B;
+}
+h3{
+    font-family: Impact, serif;
+    text-align: center;
+    vertical-align: center;
+}
+
+span{
+    -webkit-text-fill-color: white;
+    font-size: 1.5vw;
+}
+
+nav{
+    background-color: #343434;
+}
+
+.left-align{
+    margin-left: 5%;
+}
+
+p1{
+    -webkit-text-fill-color: white;
+    position: center;
+}
+
+.netShow{
+    display:inline-flex;
+    position: inherit;
+    flex-direction: column;
+    margin-right: 20px;
+}

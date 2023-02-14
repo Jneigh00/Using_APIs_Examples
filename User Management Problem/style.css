@@ -1,0 +1,31 @@
+.card{
+    position: relative;
+    border: solid lightgreen 5px;
+    height: 700px;
+    width: 500px;
+    margin-left: 35%;
+}
+
+.card-image{
+    margin-left: 19%;
+    margin-top: 5%;
+    height: 300px;
+    width: 300px;
+}
+
+div.dispLocation{
+    position: relative;
+    background-color: lightgreen;
+    height: 30px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.userInput{
+    position: absolute;
+    border: solid lightgreen 5px;
+    height: 150px;
+    width: 50px;
+}
