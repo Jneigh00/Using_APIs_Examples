@@ -1,7 +1,6 @@
 div.pokemonCard{
-    height: 600px;
+    height: 700px;
     width: 400px;
-    border: solid black 3px;
     margin-right: 15px;
     margin-top: 15px;
     display:inline-flex;
@@ -11,6 +10,10 @@ div.pokemonCard{
 
 #randomPokemon{
     margin-top: 25px;
+}
+
+span{
+    font-family: Impact;
 }
 
 nav{
@@ -26,5 +29,19 @@ img{
 span#pokeName{
     position: inherit;
     font-size: 1.5vw;
-    margin-top: 65px;
+    margin-top: 25px;
+}
+
+
+.typeBox{
+    position: inherit;
+    height: 40px;
+    width: 200px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 1.5vw;
 }

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Net Flicks</title>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
     <!-- Compiled and minified CSS -->
@@ -17,14 +19,15 @@
 </head>
 <body>
     <script type = "text/javascript" src = "Television.js"></script>
-  <nav class = "navbar-fixed">
+  <div class = "navbar">
       <div class = "nav-wrapper">
           <div class = "container">
               <h3 class = "center-align" style="-webkit-text-fill-color: red">Net Flicks</h3>
-          </div>
 
+          </div>
+          <input onkeyup="showSearch()"  placeholder="search show" style="width: 200px; margin-left: 20px;" class = "validate white-text" id = "searchShow" type = "text">
       </div>
-  </nav>
+  </div>
 
   <div id = "allShows" class = "left-align">
         <div>

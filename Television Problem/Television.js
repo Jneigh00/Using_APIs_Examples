@@ -3,6 +3,11 @@ window.onload = () => {
     console.log("done")
 }
 
+function showSearch(){
+
+}
+
+
 doIt = () => {
     fetch("http://api.tvmaze.com/shows")
         .then(response => response.json())
