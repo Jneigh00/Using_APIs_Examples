@@ -36,3 +36,20 @@ p1{
     height: 100px;
     width: 100px;
 }
+
+.searchResults{
+    position: inherit;
+    flex-direction: column;
+}
+#seasonRes{
+    position: inherit;
+    flex-direction: column;
+}
+
+select.caret {
+    fill: white;
+}
+
+#displaySeason{
+    -webkit-text-fill-color: red;
+}

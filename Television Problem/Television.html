@@ -25,9 +25,31 @@
               <h3 class = "center-align" style="-webkit-text-fill-color: red">Net Flicks</h3>
 
           </div>
-          <input onkeyup="showSearch()"  placeholder="search show" style="width: 200px; margin-left: 20px;" class = "validate white-text" id = "searchShow" type = "text">
+          <input placeholder="search show" style="width: 200px; margin-left: 20px;" class = "validate white-text" id = "searchShow" type = "text">
+          <button id = "searchButton" class = "btn" onclick="showSearch()">Search
+          </button>
       </div>
   </div>
+
+    <div style="visibility: hidden; margin-left: 20px" id = "seasonRes">
+        <div class="input-field col s12">
+            <select id = "selectedSeason">
+
+            </select>
+            <label>Click here to Select Season</label>
+        </div>
+        <span id = "displaySeason"></span>
+
+        <div id = "disShows" class = "center-align">
+
+        </div>
+
+    </div>
+
+    <div  id = "searchResults" class = "searchResults">
+
+    </div>
+
 
   <div id = "allShows" class = "left-align">
         <div>
@@ -111,5 +133,9 @@
 
         </div>
   </div>
+
+
+
+
 </body>
 </html>

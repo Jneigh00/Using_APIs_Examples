@@ -14,8 +14,11 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="PoketMonster.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="descriptiveView.css">
+    <script src = "descriptionView.js"></script>
 </head>
 <body>
+<div id = "list">
     <nav class = "navbar-fixed">
         <div class = "nav-wrapper">
             <div class = "container">
@@ -29,5 +32,41 @@
     <div class="container" id = "indexBody">
 
     </div>
+</div>
+
+<div id = "descriptive" style="visibility: hidden">
+
+
+    <div class = "pokeInformation">
+        <span id = "pokeNameDesc" class="pokeNameDesc"></span>
+        <span id = "pokeIdDec" class="pokeIDDesc"></span>
+        <img id = "pokeImage" class = "pokeImg">
+        <span id="statsLable">STATS</span>
+        <div class = "pokeStats">
+            <div id = "left">
+                <span  >HEIGHT</span>
+                <span id = "enterHeight"></span>
+                <span style="margin-top: 20px">WEIGHT</span>
+                <span id ="enterWEIGHT"></span>
+                <span style="margin-top: 20px">CANDY</span>
+                <span id="enterCandy"></span>
+            </div>
+            <div id = "right">
+                <span>SPAWN TIME</span>
+                <span id = "enterTime"></span>
+                <span style="margin-top: 20px" >AVG SPAWNS</span>
+                <span id ="enterSpawns"></span>
+                <span style="margin-top: 20px" >SPAWN CHANCE</span>
+                <span id="enterChance"></span>
+            </div>
+        </div>
+        <div class = "type" id = "typeBoxDesc"> TYPE
+
+        </div>
+        <div class = "weak" id = "weaknessBox"> WEAKNESS
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

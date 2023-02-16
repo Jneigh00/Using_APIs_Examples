@@ -45,3 +45,7 @@ span#pokeName{
     flex-direction: column;
     font-size: 1.5vw;
 }
+#descriptive{
+    height: 100%;
+    width: 100%;
+}

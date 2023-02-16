@@ -1,5 +1,5 @@
-.nextPoke{
-    position: fixed;
+.nextPokeDesc{
+    position: absolute;
     width: 100%;
     height: 100px;
     background-color: lightgray;
@@ -7,10 +7,27 @@
     vertical-align: center;
 }
 
-.pokeName{
+.pokeNameDesc{
+    position: absolute;
     text-align: center;
     font-size: 2vw;
     font-family: Impact;
+    width: 200px;
+    height: 50px;
+    -webkit-text-fill-color: dodgerblue;
+    left: 45%;
+}
+
+.pokeIDDesc{
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: Impact;
+    width: 250px;
+    height: 50px;
+    -webkit-text-fill-color: dodgerblue;
+    left: 44%;
+    top: 5%;
 }
 
 button{
@@ -22,7 +39,7 @@ button{
 
 }
 
-.pokeDescription{
+.pokeInformation{
     position: absolute;
     top: 100px;
     height: 100%;
@@ -36,4 +53,111 @@ button{
     width: 600px;
     top: 10%;
     left: 10%;
+}
+
+.pokeStats{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    background-color: dodgerblue;
+    top: 20%;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: Impact;
+    left: 50%;
+    display:inline-flex;
+    flex-direction: row;
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    font-size: 1vw;
+    display:inline-flex;
+    flex-direction: column;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    font-size: 1vw;
+    left: 50%;
+    display:inline-flex;
+    flex-direction: column;
+}
+#statsLable{
+    font-size: 2vw;
+    font-family: Impact;
+    position: inherit;
+    -webkit-text-fill-color: dodgerblue;
+    display:inline-flex;
+    flex-direction: column;
+    left:60%;
+    top: 15%;
+}
+
+span{
+    font-size: 1.5vw;
+}
+
+.typeBoxDesc{
+    height: 40px;
+    width: 150px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.weakBox{
+    height: 40px;
+    width: 150px;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.type{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 64%;
+    left: 55%;
+    font-size: 1.5vw;
+    font-family: Impact;
+    text-align: center;
+    -webkit-text-fill-color: dodgerblue;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.weak{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 63%;
+    left: 75%;
+    font-size: 1.5vw;
+    font-family: Impact;
+    text-align: center;
+    -webkit-text-fill-color: dodgerblue;
+    display: inline-flex;
+    flex-direction: column;
 }

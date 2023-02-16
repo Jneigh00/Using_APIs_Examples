@@ -17,16 +17,47 @@
 
 </head>
 <body>
-    <div class = "nextPoke">
+    <div class = "nextPokeDesc">
             <button style="margin-right: 200px" class= " white-text"></button>
             <span class = "pokeName white-text"></span>
             <button style="margin-left: 200px" class = "white-text"></button>
     </div>
 
-    <div class = "pokeDescription">
-        <img class = "pokeImg">
-    </div>
+    <div class = "pokeInformation">
+        <span id = "pokeNameDesc" class="pokeNameDesc"></span>
+        <span id = "pokeIdDec" class="pokeIDDesc"></span>
+        <img id = "pokeImage" class = "pokeImg">
+        <span id="statsLable">STATS</span>
+        <div class = "pokeStats">
+                <div id = "left">
+                        <span>HEIGHT</span>
+                        <span id = "enterHeight"></span>
+                        <span>WEIGHT</span>
+                        <span id ="enterWEIGHT"></span>
+                        <span>CANDY</span>
+                        <span id="enterCandy"></span>
+                </div>
+                <div id = "right">
+                    <span>SPAWN TIME</span>
+                    <span id = "enterTime"></span>
+                    <span>AVG SPAWNS</span>
+                    <span id ="enterSpawns"></span>
+                    <span>SPAWN CHANCE</span>
+                    <span id="enterChance"></span>
+                </div>
+        </div>
+        <div class = "type" id = "typeBox"> TYPE
+            <div class ="typeBox">
 
+            </div>
+        </div>
+        <div class = "weak" id = "weaknessBox"> WEAKNESS
+            <div class="weakBox">
+
+            </div>
+        </div>
+    </div>
+    <div id="indexBody" style="visibility: hidden"></div>
 
 </body>
 </html>
