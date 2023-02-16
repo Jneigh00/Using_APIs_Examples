@@ -12,7 +12,7 @@ span{
     font-size: 1.5vw;
 }
 
-nav{
+.navbar{
     background-color: #343434;
 }
 
@@ -30,4 +30,9 @@ p1{
     position: inherit;
     flex-direction: column;
     margin-right: 20px;
+}
+
+.searchShow{
+    height: 100px;
+    width: 100px;
 }
